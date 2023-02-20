@@ -1,0 +1,16 @@
+column,description
+SubmissionID,Unique ID for the submission.
+ReceiptDate,The date EPA received the submission.
+ValidationDate,The date the EPA finished validating the submission.
+SubType,"The submission type (F: First-time Submission, R: Resubmission, C: Correction)."
+SubReason,"The reason given for submitting, chosen from a list of options."
+EPAFacilityID,"The core facility identifier, linkable to other EPA datasets."
+FacName,Facility name listed on this submission.
+FacFTE,The number of full-time equivalent staff at the facility.
+FacCompany1,Primary facility owner.
+FacCompany2,Secondary facility owner.
+FacOperator,Facility operator.
+Chemicals,"Chemicals disclosed in the submission. Quantity, supposed to be reported in pounds, indicated as {number}. Sometimes can include duplicate entries when two separate processes use the same kind of chemicals."
+AccidentChemicals,"Chemicals released in the accidents in this submission’s five-year accident history, with quantities released as {number}."
+NumAccidents,Number of accidents in the submission’s five-year accident history.
+LatestAccidentDate,The most recent accident disclosed in the five-year accident history.

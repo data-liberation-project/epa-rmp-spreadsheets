@@ -1,0 +1,8 @@
+column,description
+EPAFacilityID,Core facility identifier.
+SubmissionID,Unique ID for the submission.
+AccidentHistoryID,Unique ID for the submission-accident combination.
+AccidentDate,Date of the accident.
+AccidentTime,Time of the accident as HHMM.
+AccidentChemicals,"Chemicals released in this accident, with quantities released as {number}."
+[...many additional columns],The remaining columns come directly from the raw data's `tblS6AccidentHistory` table. See the project documentation for context.

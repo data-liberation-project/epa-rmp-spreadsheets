@@ -1,0 +1,20 @@
+column,description
+EPAFacilityID,Core facility identifier.
+Name,Facility name.
+LatestCompany1,Primary owner in latest submission.
+LatestCompany2,Second-listed owner in latest submission.
+LatestOperator,Operator in latest submission.
+Addr1,"Facility street address, part 1."
+Addr2,"Facility street address, part 2."
+City,City.
+State,State.
+ZipCode,ZIP code.
+CountyFIPS,The county's FIPS code.
+Lat,The facility latitude.
+Lng,The facility longitude.
+NumSubmissions,The number of RMP submissions for this facility.
+LatestValidationDate,The date its latest submission was validated by the EPA.
+LatestReceiptDate,The date the EPA received that most-recently-validated submission.
+ChemicalsInLatest,"The disclosed in the latest submission. Quantity, supposed to be reported in pounds, indicated as {number}. Sometimes can include duplicate entries when two separate processes use the same kind of chemicals."
+AccidentChemicalsInLatest,"Chemicals released in the accidents in the latest submission’s five-year accident history, with quantities released as {number}."
+NumAccidentsInLatest,The number of accidents listed in the latest submission's five-year accident history.

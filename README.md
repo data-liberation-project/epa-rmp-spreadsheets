@@ -1,6 +1,6 @@
 # EPA RMP Spreadsheets
 
-🌐 [View on Google Sheets](TK)
+🌐 [View on Google Sheets](https://docs.google.com/spreadsheets/d/170UIeg_sweeqGWVQrjHWY-HNRqEPE9axbEroSEr4C3M/edit)
 
 This repository aims to create a simple set of spreadsheets extracted from [the EPA's Risk Management Program database, obtained by the Data Liberation Project via FOIA](https://docs.google.com/document/d/1jrLXtv0knnACiPXJ1ZRFXR1GaPWCHJWWjin4rsthFbQ/edit).
 

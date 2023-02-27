@@ -12,6 +12,8 @@ CREATE TEMPORARY VIEW SubmissionMeta AS
         RMPSubmissionReasonCode AS SubReasonCode,
         -- Some facility info that might have changed between submissions
         FacilityName AS FacName,
+        FacilityLatDecDegs AS FacLat,
+        FacilityLongDecDegs AS FacLng,
         FTE AS FacFTE,
         ParentCompanyName AS FacCompany1,
         Company2Name AS FacCompany2,
@@ -212,6 +214,8 @@ CREATE TEMPORARY VIEW Submissions AS
         lk.Description AS SubReason,
         s.EPAFacilityID,
         s.FacName,
+        s.FacLat,
+        s.FacLng,
         s.FacFTE,
         s.FacCompany1,
         s.FacCompany2,

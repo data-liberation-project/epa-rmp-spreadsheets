@@ -8,6 +8,8 @@ EPAFacilityID,"The core facility identifier, linkable to other EPA datasets."
 FacName,Facility name listed in *this* submission.
 FacLat,The latitude listed in *this* submission.
 FacLng,The longitude listed in *this* submission.
+FRSLat,"From the submission-level `FRS_Lat` column, whose definition does not appear to be documented by the EPA. ""FRS"", however, likely refers to the EPA's Facility Registry Service, which is publicly accessible."
+FRSLng,"Similar to above, but from the `FRS_Long` column."
 FacFTE,"The number of full-time equivalent staff at the facility, as listed in *this* submission."
 FacCompany1,"Primary facility owner, as listed in *this* submission."
 FacCompany2,"Secondary facility owner, as listed in *this* submission."

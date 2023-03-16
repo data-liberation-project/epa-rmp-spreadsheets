@@ -2,6 +2,8 @@ column,description
 SubmissionID,Unique ID for the submission.
 ReceiptDate,The date EPA received the submission.
 ValidationDate,The date the EPA finished validating the submission.
+DeregDate,"The date, per this submission, that the facility deregistered from the risk management program, either because it ceased operations entirely or no longer uses any regulated substance above the reporting threshold."
+DeregEffDate,"The date that the deregistration was ""effective""; i.e., that its operations no longer required RMP participation."
 SubType,"The submission type (F: First-time Submission, R: Resubmission, C: Correction)."
 SubReason,"The reason given for submitting, chosen from a list of options."
 EPAFacilityID,"The core facility identifier, linkable to other EPA datasets."

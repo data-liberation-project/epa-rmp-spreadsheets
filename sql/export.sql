@@ -10,3 +10,9 @@ SELECT * FROM Submissions;
 
 .output data/output/accidents.csv
 SELECT * FROM Accidents;
+
+.output data/output/naics-codes.csv
+SELECT
+    NAICS_CODE AS NAICSCode,
+    NAICS_DESCRIPTION AS Description
+FROM tlkpNAICS;

@@ -153,6 +153,26 @@ CREATE TEMPORARY VIEW Accidents AS
 
 -- ** Submission-level **
 
+-- ProcessNAICSBySubmission
+CREATE TEMPORARY VIEW ProcessNAICSBySubmission AS 
+    SELECT
+        SubmissionID,
+        GROUP_CONCAT(NAICSCode, ' • ') AS NAICSCodes
+    FROM (
+        SELECT DISTINCT
+            FacilityID AS SubmissionID,
+            NAICSCode
+        FROM
+            tblS1Processes p
+        LEFT JOIN tblS1Process_NAICS pn
+            ON p.ProcessID = pn.ProcessID
+        ORDER BY
+            NAICSCode
+    )
+    GROUP BY
+        SubmissionID
+;
+
 -- ProcessChemicalsBySubmission
 CREATE TEMPORARY VIEW ProcessChemicalsBySubmission AS 
     SELECT
@@ -228,12 +248,15 @@ CREATE TEMPORARY VIEW Submissions AS
         s.FacCompany1,
         s.FacCompany2,
         s.FacOperator,
+        n.NAICSCodes,
         c.Chemicals,
         ac.AccidentChemicals,
         COALESCE(a.NumAccidents, 0) AS NumAccidents,
         a.LatestAccidentDate
     FROM
         SubmissionMeta s
+        LEFT JOIN ProcessNAICSBySubmission n
+            ON s.SubmissionID = n.SubmissionID
         LEFT JOIN ProcessChemicalsBySubmission c
             ON s.SubmissionID = c.SubmissionID
         LEFT JOIN AccidentsBySubmission a
@@ -279,6 +302,7 @@ CREATE TEMPORARY VIEW LatestSubmissionsByFacility AS
         ReceiptDate,
         DeregDate,
         DeregEffDate,
+        NAICSCodes,
         Chemicals,
         NumAccidents,
         LatestAccidentDate,
@@ -309,6 +333,7 @@ CREATE TEMPORARY VIEW Facilities AS
         ReceiptDate AS LatestReceiptDate,
         DeregDate AS LatestDeregDate,
         DeregEffDate AS LatestDeregEffDate,
+        NAICSCodes AS NAICSCodesInLatest,
         Chemicals AS ChemicalsInLatest,
         AccidentChemicals AS AccidentChemicalsInLatest,
         NumAccidents AS NumAccidentsInLatest

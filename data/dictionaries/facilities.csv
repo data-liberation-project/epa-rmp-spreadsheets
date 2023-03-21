@@ -17,6 +17,7 @@ LatestValidationDate,The date its latest submission was validated by the EPA.
 LatestReceiptDate,The date the EPA received that most-recently-validated submission.
 LatestDeregDate,"The date, per the most-recently-validated submission, that the facility deregistered from the risk management program, either because it ceased operations entirely or no longer uses any regulated substance above the reporting threshold."
 LatestDeregEffDate,"The date that the deregistration was ""effective""; i.e., that its operations no longer required RMP participation."
-ChemicalsInLatest,"The disclosed in the latest submission. Quantity, supposed to be reported in pounds, indicated as {number}. Sometimes can include duplicate entries when two separate processes use the same kind of chemicals."
+NAICSCodessInLatest,"The distinct NAICS codes, across all processes, listed in the latest submission. See NAICS Codes spreadsheet to look these up."
+ChemicalsInLatest,"The chemicals disclosed in the latest submission. Quantity, supposed to be reported in pounds, indicated as {number}. Sometimes can include duplicate entries when two separate processes use the same kind of chemicals."
 AccidentChemicalsInLatest,"Chemicals released in the accidents in the latest submission’s five-year accident history, with quantities released as {number}."
 NumAccidentsInLatest,The number of accidents listed in the latest submission's five-year accident history.

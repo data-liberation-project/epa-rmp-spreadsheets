@@ -11,7 +11,7 @@ State,State listed in the facility's latest submission.
 ZipCode,ZIP code listed in the facility's latest submission.
 CountyFIPS,"The county's FIPS code, per the facility's latest submission."
 Lat,The facility latitude in its latest submission.
-Lng,The facility latitude in its latest submission.
+Lng,The facility longitude in its latest submission.
 NumSubmissions,The number of RMP submissions for this facility.
 LatestValidationDate,The date the facility's latest submission was validated by the EPA.
 LatestReceiptDate,The date the EPA received that most-recently-validated submission.

@@ -1,19 +1,19 @@
 column,description
 EPAFacilityID,Core facility identifier.
-Name,Facility name.
-LatestCompany1,Primary owner in latest submission.
-LatestCompany2,Second-listed owner in latest submission.
-LatestOperator,Operator in latest submission.
-Addr1,"Facility street address, part 1."
-Addr2,"Facility street address, part 2."
-City,City.
-State,State.
-ZipCode,ZIP code.
-CountyFIPS,The county's FIPS code.
-Lat,The facility latitude.
-Lng,The facility longitude.
+Name,Facility name in its latest submission.
+LatestCompany1,Primary owner in the facility's latest submission.
+LatestCompany2,Second-listed owner in the facility's latest submission.
+LatestOperator,Operator in the facility's latest submission.
+Addr1,"Facility street address, part 1, in its latest submission."
+Addr2,"Facility street address, part 2, in its latest submission."
+City,City listed in the facility's latest submission.
+State,State listed in the facility's latest submission.
+ZipCode,ZIP code listed in the facility's latest submission.
+CountyFIPS,"The county's FIPS code, per the facility's latest submission."
+Lat,The facility latitude in its latest submission.
+Lng,The facility latitude in its latest submission.
 NumSubmissions,The number of RMP submissions for this facility.
-LatestValidationDate,The date its latest submission was validated by the EPA.
+LatestValidationDate,The date the facility's latest submission was validated by the EPA.
 LatestReceiptDate,The date the EPA received that most-recently-validated submission.
 LatestDeregDate,"The date, per the most-recently-validated submission, that the facility deregistered from the risk management program, either because it ceased operations entirely or no longer uses any regulated substance above the reporting threshold."
 LatestDeregEffDate,"The date that the deregistration was ""effective""; i.e., that its operations no longer required RMP participation."

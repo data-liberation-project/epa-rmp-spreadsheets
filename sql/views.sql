@@ -12,7 +12,6 @@ CREATE TEMPORARY VIEW SubmissionMeta AS
         SUBSTR(DeRegistrationEffectiveDate, 1, 10) AS DeregEffDate,
         SubmissionType AS SubType,
         RMPSubmissionReasonCode AS SubReasonCode,
-        -- Some facility info that might have changed between submissions
         FacilityName AS FacName,
         FacilityLatDecDegs AS FacLat,
         FacilityLongDecDegs AS FacLng,
@@ -21,7 +20,14 @@ CREATE TEMPORARY VIEW SubmissionMeta AS
         FTE AS FacFTE,
         ParentCompanyName AS FacCompany1,
         Company2Name AS FacCompany2,
-        OperatorName AS FacOperator
+        OperatorName AS FacOperator,
+        FacilityStr1 AS Addr1,
+        FacilityStr2 AS Addr2,
+        FacilityCity AS City,
+        FacilityState AS State,
+        FacilityZipCode AS ZipCode,
+        FacilityCountyFIPS AS CountyFIPS
+
     FROM
         tblS1Facilities
     ORDER BY
@@ -294,10 +300,13 @@ CREATE TEMPORARY VIEW SubmissionsByFacility AS
 -- LatestSubmissionsByFacility
 CREATE TEMPORARY VIEW LatestSubmissionsByFacility AS
     SELECT
+        SubmissionID,
         EPAFacilityID,
         FacCompany1,
         FacCompany2,
         FacOperator,
+        FacLat,
+        FacLng,
         MAX(ValidationDate) AS ValidationDate,
         ReceiptDate,
         DeregDate,
@@ -315,34 +324,34 @@ CREATE TEMPORARY VIEW LatestSubmissionsByFacility AS
 -- Facilities
 CREATE TEMPORARY VIEW Facilities AS
     SELECT
-        fac.EPAFacilityID,
-        FacilityName AS Name,
-        FacCompany1 AS LatestCompany1,
-        FacCompany2 AS LatestCompany2,
-        FacOperator AS LatestOperator,
-        FacilityStr1 AS Addr1,
-        FacilityStr2 AS Addr2,
-        FacilityCity AS City,
-        FacilityState AS State,
-        FacilityZipCode AS ZipCode,
-        FacilityCountyFIPS AS CountyFIPS,
-        FacilityLatDecDegs AS Lat,
-        FacilityLongDecDegs AS Lng,
+        ls.EPAFacilityID,
+        m.FacName AS Name,
+        m.FacCompany1 AS LatestCompany1,
+        m.FacCompany2 AS LatestCompany2,
+        m.FacOperator AS LatestOperator,
+        m.Addr1,
+        m.Addr2,
+        m.City,
+        m.State,
+        m.ZipCode,
+        m.CountyFIPS,
+        m.FacLat AS Lat,
+        m.FacLng AS Lng,
         NumSubmissions,
-        ValidationDate AS LatestValidationDate,
-        ReceiptDate AS LatestReceiptDate,
-        DeregDate AS LatestDeregDate,
-        DeregEffDate AS LatestDeregEffDate,
+        m.ValidationDate AS LatestValidationDate,
+        m.ReceiptDate AS LatestReceiptDate,
+        m.DeregDate AS LatestDeregDate,
+        m.DeregEffDate AS LatestDeregEffDate,
         NAICSCodes AS NAICSCodesInLatest,
         Chemicals AS ChemicalsInLatest,
         AccidentChemicals AS AccidentChemicalsInLatest,
         NumAccidents AS NumAccidentsInLatest
     FROM
-        tblFacility fac
+        LatestSubmissionsByFacility ls
+        LEFT JOIN SubmissionMeta m
+            ON m.SubmissionID = ls.SubmissionID
         LEFT JOIN SubmissionsByFacility s
-            ON s.EPAFacilityID = fac.EPAFacilityID
-        LEFT JOIN LatestSubmissionsByFacility ls
-            ON ls.EPAFacilityID = fac.EPAFacilityID
+            ON s.EPAFacilityID = ls.EPAFacilityID
         LEFT JOIN AccidentsByFacility a
-            ON a.EPAFacilityID = fac.EPAFacilityID;
+            ON a.EPAFacilityID = ls.EPAFacilityID;
 

@@ -21,7 +21,11 @@ The [`data/output/`](data/output/) directory contains three files, each the resu
 
 - [`data/output/submissions.csv`](data/output/submissions.csv): One row per RMP submission (rather than one row per facility), with similar information as above.
 
-- [`data/output/accidents.csv`](data/output/accidents.csv): One row per accident reported in a submission; due to reporting requirements, there can be duplications across submissions.
+- [`data/output/accidents.csv`](data/output/accidents.csv): One row per accident reported, *with obvious duplicates removed*. Due to reporting requirements, facilities may report the same accident in multiple submissions over time. This causes duplicate accidents to appear in the raw data.
+    - The Data Liberation Project has attempted to remove these duplicates, using a simple rule: If two accidents are reported in the same submission, they are *not duplicates* of one another; otherwise, all reports of accidents on the *same day at the same facility* are considered to reference the same event, and only the most recent submission’s version of the accident report is retained.
+    - Cross-checking the results against [public accounting by the EPA](https://www.regulations.gov/document/EPA-HQ-OLEM-2022-0174-0065), and spot-checking the results internally, suggests that this is a robust approach. Weaknesses include potentially double-counting (a) accidents for which a facility has changed the date between submissions, (b) accidents that a facility has reported twice in the same submission (of which there appear to be just one or two likely instances).
+
+- [`data/output/accidents-with-duplicates.csv`](data/output/accidents-with-duplicates.csv): One row per accident listed in the raw data, *including duplicates* (see note directly above).
 
 ### Data dictionaries
 

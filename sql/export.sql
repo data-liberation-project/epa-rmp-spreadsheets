@@ -11,6 +11,9 @@ SELECT * FROM Submissions;
 .output data/output/accidents.csv
 SELECT * FROM Accidents;
 
+.output data/output/accidents-with-duplicates.csv
+SELECT * FROM AccidentEntries;
+
 .output data/output/naics-codes.csv
 SELECT
     NAICS_CODE AS NAICSCode,

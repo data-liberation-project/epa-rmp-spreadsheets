@@ -71,7 +71,7 @@ CREATE TEMPORARY VIEW AccidentChemicalsByAccident AS
         AccidentHistoryID;
 
 -- Accidents
-CREATE TEMPORARY VIEW Accidents AS
+CREATE TEMPORARY VIEW AccidentEntries AS
     SELECT
         EPAFacilityID,
         FacilityID AS SubmissionID,
@@ -156,6 +156,39 @@ CREATE TEMPORARY VIEW Accidents AS
         AccidentDate DESC,
         AccidentTime DESC,
         a.AccidentHistoryID DESC;
+
+
+CREATE TEMPORARY VIEW AccidentDateLatestSubmissions AS
+    SELECT
+        a.EPAFacilityID,
+        AccidentDate,
+        MAX(ValidationDate),
+        a.SubmissionID AS SubmissionIDLatest
+    FROM
+        AccidentEntries a
+        LEFT JOIN SubmissionMeta s
+            ON a.SubmissionID = s.SubmissionID
+    GROUP BY
+        a.EPAFacilityID,
+        AccidentDate
+;
+
+CREATE TEMPORARY VIEW Accidents AS
+    SELECT
+        a.*
+    FROM
+        AccidentEntries a
+        LEFT JOIN AccidentDateLatestSubmissions latest
+            ON a.EPAFacilityID = latest.EPAFacilityID
+            AND a.AccidentDate = latest.AccidentDate
+    WHERE
+        a.SubmissionID = latest.SubmissionIDLatest
+    ORDER BY
+        a.SubmissionID DESC,
+        a.AccidentDate DESC,
+        a.AccidentTime DESC,
+        a.AccidentHistoryID DESC
+;
 
 -- ** Submission-level **
 

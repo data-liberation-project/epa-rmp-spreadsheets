@@ -31,13 +31,20 @@ The [`data/output/`](data/output/) directory contains three files, each the resu
 
 The [`data/dictionaries/`](data/dictionaries/) directory contains a data dictionary for each of the output files, explaining the columns.
 
+### Changes files
+
+The [`data/changes/`](data/changes/) directory contains one subdirectory per RMP data-update, with each subdirectory named `YYYY-MM` after the year and month of the Data Liberation Project received the updated data from the EPA.
+
+Each subdirectory contains one file per file in the `data/output/` directory, but suffixed with `.json` instead of `.csv`. Each of these JSON files contains the output of `csv-diff --json old-file.csv new-file.csv --id [...]`, run using the [`csv-diff`](https://github.com/simonw/csv-diff) command-line tool. (See the [`Makefile`](Makefile) for specifics.) They indicate the rows added, removed, and changed between the older and newer data.
+
 ## Local Development
 
-### Copy the main RMP SQLite files into `data/raw/`
+### Copy the RMP SQLite file into `data/raw/`
 
 - If the `data/raw/` directory does not already exist, create it.
-- Download `RMPData.sqlite` and `RMPFac.sqlite` from [this Google Drive folder](https://drive.google.com/drive/folders/15mfQyTLvEywzQa_C0tBtWzrPE7ZawA7I).
-- Copy those two files into `data/raw/`.
+- Download `RMPData.sqlite` from [this Google Drive folder](https://drive.google.com/drive/folders/1D4npYSJi7VGMKUIUFAWspHXXzseyrztj).
+- Copy or move that file into `data/raw/`.
+
 
 ### Regenerate the data
 

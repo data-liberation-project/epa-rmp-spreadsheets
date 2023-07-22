@@ -1,5 +1,4 @@
-ATTACH "data/raw/RMPFac.sqlite" as facdb;
-ATTACH "data/raw/RMPData.sqlite" as subdb;
+ATTACH "data/raw/RMPData.sqlite" as db;
 
 -- SubmissionMeta
 CREATE TEMPORARY VIEW SubmissionMeta AS
@@ -77,7 +76,7 @@ CREATE TEMPORARY VIEW AccidentEntries AS
         FacilityID AS SubmissionID,
         a.AccidentHistoryID,
         SUBSTR(AccidentDate, 1, 10) AS AccidentDate,
-        AccidentTime,
+        SUBSTR(AccidentTime, 1, 2) || SUBSTR(AccidentTime, 4, 2) AS AccidentTime,
         ac.AccidentChemicals,
         AccidentReleaseDuration,
         NAICSCode,
@@ -303,7 +302,9 @@ CREATE TEMPORARY VIEW Submissions AS
         LEFT JOIN AccidentChemicalsBySubmission ac
             ON s.SubmissionID = ac.SubmissionID
         LEFT JOIN tlkpSubmissionReasonCodes lk
-            ON lk.LookupCode = s.SubReasonCode;
+            ON lk.LookupCode = s.SubReasonCode
+    ORDER BY
+        s.SubmissionID DESC;
 
 -- ** Facility-level **
 

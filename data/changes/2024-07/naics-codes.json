@@ -1,0 +1,920 @@
+{
+    "added": [
+        {
+            "NAICSCode": "811114",
+            "Description": "Specialized Automotive Repair"
+        },
+        {
+            "NAICSCode": "52394",
+            "Description": "Portfolio Management and Investment Advice"
+        },
+        {
+            "NAICSCode": "52315",
+            "Description": "Investment Banking and Securities Intermediation"
+        },
+        {
+            "NAICSCode": "52316",
+            "Description": "Commodity Contracts Intermediation"
+        },
+        {
+            "NAICSCode": "522299",
+            "Description": "International, Secondary Market, and All Other Nondepository Credit Intermediation"
+        },
+        {
+            "NAICSCode": "52218",
+            "Description": "Savings Institutions and Other Depository Credit Intermediation"
+        },
+        {
+            "NAICSCode": "5192",
+            "Description": "Web Search Portals, Libraries, Archives, and Other Information Services"
+        },
+        {
+            "NAICSCode": "51921",
+            "Description": "Libraries and Archives"
+        },
+        {
+            "NAICSCode": "51929",
+            "Description": "Web Search Portals and All Other Information Services"
+        },
+        {
+            "NAICSCode": "5178",
+            "Description": "All Other Telecommunications"
+        },
+        {
+            "NAICSCode": "51781",
+            "Description": "All Other Telecommunications"
+        },
+        {
+            "NAICSCode": "517111",
+            "Description": "Wired Telecommunications Carriers"
+        },
+        {
+            "NAICSCode": "517112",
+            "Description": "Wireless Telecommunications Carriers (except Satellite)"
+        },
+        {
+            "NAICSCode": "51712",
+            "Description": "Telecommunications Resellers and Agents for Wireless Telecommunication Services"
+        },
+        {
+            "NAICSCode": "517121",
+            "Description": "Telecommunications Resellers"
+        },
+        {
+            "NAICSCode": "517122",
+            "Description": "Agents for Wireless Telecommunications Services"
+        },
+        {
+            "NAICSCode": "51612",
+            "Description": "Television Broadcasting Stations"
+        },
+        {
+            "NAICSCode": "5162",
+            "Description": "Media Streaming Distribution Services, Social Networks, and Other Media Networks and Content Providers"
+        },
+        {
+            "NAICSCode": "51621",
+            "Description": "Media Streaming Distribution Services, Social Networks, and Other Media Networks and Content Providers"
+        },
+        {
+            "NAICSCode": "51313",
+            "Description": "Book Publishers"
+        },
+        {
+            "NAICSCode": "51314",
+            "Description": "Directory and Mailing List Publishers"
+        },
+        {
+            "NAICSCode": "51319",
+            "Description": "Other Publishers"
+        },
+        {
+            "NAICSCode": "513191",
+            "Description": "Greeting Card Publishers"
+        },
+        {
+            "NAICSCode": "513199",
+            "Description": "All Other Publishers"
+        },
+        {
+            "NAICSCode": "4599",
+            "Description": "Other Miscellaneous Retailers"
+        },
+        {
+            "NAICSCode": "45991",
+            "Description": "Pet and Pet Supplies Retailers"
+        },
+        {
+            "NAICSCode": "45992",
+            "Description": "Art Dealers"
+        },
+        {
+            "NAICSCode": "45993",
+            "Description": "Manufactured (Mobile) Home Dealers"
+        },
+        {
+            "NAICSCode": "45999",
+            "Description": "All Other Miscellaneous Retailers"
+        },
+        {
+            "NAICSCode": "459991",
+            "Description": "Tobacco, Electronic Cigarette, and Other Smoking Supplies Retailers"
+        },
+        {
+            "NAICSCode": "459999",
+            "Description": "All Other Miscellaneous Retailers"
+        },
+        {
+            "NAICSCode": "4593",
+            "Description": "Florists"
+        },
+        {
+            "NAICSCode": "45931",
+            "Description": "Florists"
+        },
+        {
+            "NAICSCode": "4594",
+            "Description": "Office Supplies, Stationery, and Gift Retailers"
+        },
+        {
+            "NAICSCode": "45941",
+            "Description": "Office Supplies and Stationery Retailers"
+        },
+        {
+            "NAICSCode": "45942",
+            "Description": "Gift, Novelty, and Souvenir Retailers"
+        },
+        {
+            "NAICSCode": "4595",
+            "Description": "Used Merchandise Retailers"
+        },
+        {
+            "NAICSCode": "45951",
+            "Description": "Used Merchandise Retailers"
+        },
+        {
+            "NAICSCode": "4591",
+            "Description": "Sporting Goods, Hobby, and Musical Instrument Retailers"
+        },
+        {
+            "NAICSCode": "45911",
+            "Description": "Sporting Goods Retailers"
+        },
+        {
+            "NAICSCode": "45912",
+            "Description": "Hobby, Toy, and Game Retailers"
+        },
+        {
+            "NAICSCode": "45913",
+            "Description": "Sewing, Needlework, and Piece Goods Retailers"
+        },
+        {
+            "NAICSCode": "45914",
+            "Description": "Musical Instrument and Supplies Retailers"
+        },
+        {
+            "NAICSCode": "4592",
+            "Description": "Book Retailers and News Dealers"
+        },
+        {
+            "NAICSCode": "45921",
+            "Description": "Book Retailers and News Dealers"
+        },
+        {
+            "NAICSCode": "45811",
+            "Description": "Clothing and Clothing Accessories Retailers"
+        },
+        {
+            "NAICSCode": "4582",
+            "Description": "Shoe Retailers"
+        },
+        {
+            "NAICSCode": "45821",
+            "Description": "Shoe Retailers"
+        },
+        {
+            "NAICSCode": "4583",
+            "Description": "Jewelry, Luggage, and Leather Goods Retailers"
+        },
+        {
+            "NAICSCode": "45831",
+            "Description": "Jewelry Retailers"
+        },
+        {
+            "NAICSCode": "45832",
+            "Description": "Luggage and Leather Goods Retailers"
+        },
+        {
+            "NAICSCode": "459",
+            "Description": "Sporting Goods, Hobby, Musical Instrument, Book, and Miscellaneous Retailers"
+        },
+        {
+            "NAICSCode": "457",
+            "Description": "Gasoline Stations and Fuel Dealers"
+        },
+        {
+            "NAICSCode": "4571",
+            "Description": "Gasoline Stations"
+        },
+        {
+            "NAICSCode": "45711",
+            "Description": "Gasoline Stations with Convenience Stores"
+        },
+        {
+            "NAICSCode": "45712",
+            "Description": "Other Gasoline Stations"
+        },
+        {
+            "NAICSCode": "4572",
+            "Description": "Fuel Dealers"
+        },
+        {
+            "NAICSCode": "45721",
+            "Description": "Fuel Dealers"
+        },
+        {
+            "NAICSCode": "458",
+            "Description": "Clothing, Clothing Accessories, Shoe, and Jewelry Retailers"
+        },
+        {
+            "NAICSCode": "4581",
+            "Description": "Clothing and Clothing Accessories Retailers"
+        },
+        {
+            "NAICSCode": "456",
+            "Description": "Health and Personal Care Retailers"
+        },
+        {
+            "NAICSCode": "4561",
+            "Description": "Health and Personal Care Retailers"
+        },
+        {
+            "NAICSCode": "45611",
+            "Description": "Pharmacies and Drug Retailers"
+        },
+        {
+            "NAICSCode": "45612",
+            "Description": "Cosmetics, Beauty Supplies, and Perfume Retailers"
+        },
+        {
+            "NAICSCode": "45613",
+            "Description": "Optical Goods Retailers"
+        },
+        {
+            "NAICSCode": "45619",
+            "Description": "Other Health and Personal Care Retailers"
+        },
+        {
+            "NAICSCode": "456191",
+            "Description": "Food (Health) Supplement Retailers"
+        },
+        {
+            "NAICSCode": "456199",
+            "Description": "All Other Health and Personal Care Retailers"
+        },
+        {
+            "NAICSCode": "455",
+            "Description": "General Merchandise Retailers"
+        },
+        {
+            "NAICSCode": "4551",
+            "Description": "Department Stores"
+        },
+        {
+            "NAICSCode": "45511",
+            "Description": "Department Stores"
+        },
+        {
+            "NAICSCode": "4552",
+            "Description": "Warehouse Clubs, Supercenters, and Other General Merchandise Retailers"
+        },
+        {
+            "NAICSCode": "45521",
+            "Description": "Warehouse Clubs, Supercenters, and Other General Merchandise Retailers"
+        },
+        {
+            "NAICSCode": "455211",
+            "Description": "Warehouse Clubs and Supercenters"
+        },
+        {
+            "NAICSCode": "455219",
+            "Description": "All Other General Merchandise Retailers"
+        },
+        {
+            "NAICSCode": "4491",
+            "Description": "Furniture and Home Furnishings Retailers"
+        },
+        {
+            "NAICSCode": "44911",
+            "Description": "Furniture Retailers"
+        },
+        {
+            "NAICSCode": "44912",
+            "Description": "Home Furnishings Retailers"
+        },
+        {
+            "NAICSCode": "449121",
+            "Description": "Floor Covering Retailers"
+        },
+        {
+            "NAICSCode": "449122",
+            "Description": "Window Treatment Retailers"
+        },
+        {
+            "NAICSCode": "449129",
+            "Description": "All Other Home Furnishings Retailers"
+        },
+        {
+            "NAICSCode": "4492",
+            "Description": "Electronics and Appliance Retailers"
+        },
+        {
+            "NAICSCode": "44921",
+            "Description": "Electronics and Appliance Retailers"
+        },
+        {
+            "NAICSCode": "445298",
+            "Description": "All Other Specialty Food Retailers"
+        },
+        {
+            "NAICSCode": "44532",
+            "Description": "Beer, Wine, and Liquor Retailers"
+        },
+        {
+            "NAICSCode": "449",
+            "Description": "Furniture, Home Furnishings, Electronics, and Appliance Retailers"
+        },
+        {
+            "NAICSCode": "44513",
+            "Description": "Convenience Retailers and Vending Machine Operators"
+        },
+        {
+            "NAICSCode": "445131",
+            "Description": "Convenience Retailers"
+        },
+        {
+            "NAICSCode": "445132",
+            "Description": "Vending Machine Operators"
+        },
+        {
+            "NAICSCode": "44524",
+            "Description": "Meat Retailers"
+        },
+        {
+            "NAICSCode": "44525",
+            "Description": "Fish and Seafood Retailers"
+        },
+        {
+            "NAICSCode": "44418",
+            "Description": "Other Building Material Dealers"
+        },
+        {
+            "NAICSCode": "44423",
+            "Description": "Outdoor Power Equipment Retailers"
+        },
+        {
+            "NAICSCode": "44424",
+            "Description": "Nursery, Garden Center, and Farm Supply Retailers"
+        },
+        {
+            "NAICSCode": "44133",
+            "Description": "Automotive Parts and Accessories Retailers"
+        },
+        {
+            "NAICSCode": "44134",
+            "Description": "Tire Dealers"
+        },
+        {
+            "NAICSCode": "44414",
+            "Description": "Hardware Retailers"
+        },
+        {
+            "NAICSCode": "441227",
+            "Description": "Motorcycle, ATV, and All Other Motor Vehicle Dealers"
+        },
+        {
+            "NAICSCode": "42435",
+            "Description": "Clothing and Clothing Accessories Merchant Wholesalers"
+        },
+        {
+            "NAICSCode": "337126",
+            "Description": "Household Furniture (except Wood and Upholstered) Manufacturing"
+        },
+        {
+            "NAICSCode": "335131",
+            "Description": "Residential Electric Lighting Fixture Manufacturing"
+        },
+        {
+            "NAICSCode": "335132",
+            "Description": "Commercial, Industrial, and Institutional Electric Lighting Fixture Manufacturing"
+        },
+        {
+            "NAICSCode": "335139",
+            "Description": "Electric Lamp Bulb and Other Lighting Equipment Manufacturing"
+        },
+        {
+            "NAICSCode": "33513",
+            "Description": "Electric Lighting Equipment Manufacturing"
+        },
+        {
+            "NAICSCode": "333998",
+            "Description": "All Other Miscellaneous General Purpose Machinery Manufacturing"
+        },
+        {
+            "NAICSCode": "333248",
+            "Description": "All Other Industrial Machinery Manufacturing"
+        },
+        {
+            "NAICSCode": "325315",
+            "Description": "Compost Manufacturing"
+        },
+        {
+            "NAICSCode": "321215",
+            "Description": "Engineered Wood Member Manufacturing"
+        },
+        {
+            "NAICSCode": "31512",
+            "Description": "Apparel Knitting Mills"
+        },
+        {
+            "NAICSCode": "31525",
+            "Description": "Cut and Sew Apparel Manufacturing (except Contractors)"
+        },
+        {
+            "NAICSCode": "212323",
+            "Description": "Kaolin, Clay, and Ceramic and Refractory Minerals Mining"
+        },
+        {
+            "NAICSCode": "212114",
+            "Description": "Surface Coal Mining"
+        },
+        {
+            "NAICSCode": "212115",
+            "Description": "Underground Coal Mining"
+        }
+    ],
+    "removed": [],
+    "changed": [
+        {
+            "key": "325992",
+            "changes": {
+                "Description": [
+                    "Photographic Film, Paper, Plate, and Chemical Manufacturing",
+                    "Photographic Film, Paper, Plate, Chemical, and Copy Toner Manufacturing"
+                ]
+            }
+        },
+        {
+            "key": "32531",
+            "changes": {
+                "Description": [
+                    "Fertilizer Manufacturing",
+                    "Fertilizer and Compost Manufacturing"
+                ]
+            }
+        },
+        {
+            "key": "3252",
+            "changes": {
+                "Description": [
+                    "Resin, Synthetic Rubber, and Artificial Synthetic Fibers and Filaments Manufacturing",
+                    "Resin, Synthetic Rubber, and Artificial and Synthetic Fibers and Filaments Manufacturing"
+                ]
+            }
+        },
+        {
+            "key": "44",
+            "changes": {
+                "Description": [
+                    "Retail Trade for Automotive, Food, Clothing, Home Furnishings, and Other Necessities",
+                    "Retail Trade"
+                ]
+            }
+        },
+        {
+            "key": "311221",
+            "changes": {
+                "Description": [
+                    "Wet Corn Milling",
+                    "Wet Corn Milling and Starch Manufacturing"
+                ]
+            }
+        },
+        {
+            "key": "45",
+            "changes": {
+                "Description": [
+                    "Retail Trade for Sporting Goods, Hobbies, Books, Music, and General Merchandise",
+                    "Retail Trade"
+                ]
+            }
+        },
+        {
+            "key": "31",
+            "changes": {
+                "Description": [
+                    "Manufacturing of Food, Textiles, Apparel, and Leather Products",
+                    "Manufacturing"
+                ]
+            }
+        },
+        {
+            "key": "32",
+            "changes": {
+                "Description": [
+                    "Manufacturing of Wood, Paper, Petroleum, Coal, Chemical, and Nonmetallic Minerals",
+                    "Manufacturing"
+                ]
+            }
+        },
+        {
+            "key": "33",
+            "changes": {
+                "Description": [
+                    "Manufacturing of Metal, Electronic, Computer, Furniture, and Other Products",
+                    "Manufacturing"
+                ]
+            }
+        },
+        {
+            "key": "6244",
+            "changes": {
+                "Description": [
+                    "Child Day Care Services",
+                    "Child Care Services"
+                ]
+            }
+        },
+        {
+            "key": "62441",
+            "changes": {
+                "Description": [
+                    "Child Day Care Services",
+                    "Child Care Services"
+                ]
+            }
+        },
+        {
+            "key": "561611",
+            "changes": {
+                "Description": [
+                    "Investigation Services",
+                    "Investigation and Personal Background Check Services"
+                ]
+            }
+        },
+        {
+            "key": "54185",
+            "changes": {
+                "Description": [
+                    "Outdoor Advertising",
+                    "Indoor and Outdoor Display Advertising"
+                ]
+            }
+        },
+        {
+            "key": "54138",
+            "changes": {
+                "Description": [
+                    "Testing Laboratories",
+                    "Testing Laboratories and Services"
+                ]
+            }
+        },
+        {
+            "key": "53228",
+            "changes": {
+                "Description": [
+                    "Other Consummer Goods Rental",
+                    "Other Consumer Goods Rental"
+                ]
+            }
+        },
+        {
+            "key": "524292",
+            "changes": {
+                "Description": [
+                    "Third Party Administration of Insurance and Pension Funds",
+                    "Pharmacy Benefit Management and Other Third Party Administration of Insurance and Pension Funds"
+                ]
+            }
+        },
+        {
+            "key": "521",
+            "changes": {
+                "Description": [
+                    "Monetary Authorities - Central Bank",
+                    "Monetary Authorities-Central Bank"
+                ]
+            }
+        },
+        {
+            "key": "5211",
+            "changes": {
+                "Description": [
+                    "Monetary Authorities - Central Bank",
+                    "Monetary Authorities-Central Bank"
+                ]
+            }
+        },
+        {
+            "key": "52111",
+            "changes": {
+                "Description": [
+                    "Monetary Authorities - Central Bank",
+                    "Monetary Authorities-Central Bank"
+                ]
+            }
+        },
+        {
+            "key": "518",
+            "changes": {
+                "Description": [
+                    "Data Processing, Hosting, and Related Services",
+                    "Computing Infrastructure Providers, Data Processing, Web Hosting, and Related Services"
+                ]
+            }
+        },
+        {
+            "key": "5182",
+            "changes": {
+                "Description": [
+                    "Data Processing, Hosting, and Related Services",
+                    "Computing Infrastructure Providers, Data Processing, Web Hosting, and Related Services"
+                ]
+            }
+        },
+        {
+            "key": "51821",
+            "changes": {
+                "Description": [
+                    "Data Processing, Hosting, and Related Services",
+                    "Computing Infrastructure Providers, Data Processing, Web Hosting, and Related Services"
+                ]
+            }
+        },
+        {
+            "key": "519",
+            "changes": {
+                "Description": [
+                    "Other Information Services",
+                    "Web Search Portals, Libraries, Archives, and Other Information Services"
+                ]
+            }
+        },
+        {
+            "key": "51711",
+            "changes": {
+                "Description": [
+                    "Wired Telecommunications Carriers",
+                    "Wired and Wireless Telecommunications Carriers (except Satellite)"
+                ]
+            }
+        },
+        {
+            "key": "516",
+            "changes": {
+                "Description": [
+                    "Internet Publishing and Broadcasting",
+                    "Broadcasting and Content Providers"
+                ]
+            }
+        },
+        {
+            "key": "5161",
+            "changes": {
+                "Description": [
+                    "Internet Publishing and Broadcasting",
+                    "Radio and Television Broadcasting Stations"
+                ]
+            }
+        },
+        {
+            "key": "51611",
+            "changes": {
+                "Description": [
+                    "Internet Publishing and Broadcasting",
+                    "Radio Broadcasting Stations"
+                ]
+            }
+        },
+        {
+            "key": "5171",
+            "changes": {
+                "Description": [
+                    "Wired Telecommunications Carriers",
+                    "Wired and Wireless Telecommunications (except Satellite)"
+                ]
+            }
+        },
+        {
+            "key": "51312",
+            "changes": {
+                "Description": [
+                    "Television Broadcasting",
+                    "Periodical Publishers"
+                ]
+            }
+        },
+        {
+            "key": "5132",
+            "changes": {
+                "Description": [
+                    "Cable Networks and Program Distribution",
+                    "Software Publishers"
+                ]
+            }
+        },
+        {
+            "key": "51321",
+            "changes": {
+                "Description": [
+                    "Cable Networks",
+                    "Software Publishers"
+                ]
+            }
+        },
+        {
+            "key": "513",
+            "changes": {
+                "Description": [
+                    "Broadcasting and Telecommunications",
+                    "Publishing Industries"
+                ]
+            }
+        },
+        {
+            "key": "5131",
+            "changes": {
+                "Description": [
+                    "Radio and Television Broadcasting",
+                    "Newspaper, Periodical, Book, and Directory Publishers"
+                ]
+            }
+        },
+        {
+            "key": "51311",
+            "changes": {
+                "Description": [
+                    "Radio Broadcasting",
+                    "Newspaper Publishers"
+                ]
+            }
+        },
+        {
+            "key": "48531",
+            "changes": {
+                "Description": [
+                    "Taxi Service",
+                    "Taxi and Ridesharing Services"
+                ]
+            }
+        },
+        {
+            "key": "48-49",
+            "changes": {
+                "Description": [
+                    "Transportation",
+                    "Transportation and Warehousing"
+                ]
+            }
+        },
+        {
+            "key": "445291",
+            "changes": {
+                "Description": [
+                    "Baked Goods Stores",
+                    "Baked Goods Retailers"
+                ]
+            }
+        },
+        {
+            "key": "445292",
+            "changes": {
+                "Description": [
+                    "Confectionery and Nut Stores",
+                    "Confectionery and Nut Retailers"
+                ]
+            }
+        },
+        {
+            "key": "4453",
+            "changes": {
+                "Description": [
+                    "Beer, Wine, and Liquor Stores",
+                    "Beer, Wine, and Liquor Retailers"
+                ]
+            }
+        },
+        {
+            "key": "4452",
+            "changes": {
+                "Description": [
+                    "Specialty Food Stores",
+                    "Specialty Food Retailers"
+                ]
+            }
+        },
+        {
+            "key": "44523",
+            "changes": {
+                "Description": [
+                    "Fruit and Vegetable Markets",
+                    "Fruit and Vegetable Retailers"
+                ]
+            }
+        },
+        {
+            "key": "44529",
+            "changes": {
+                "Description": [
+                    "Other Specialty Food Stores",
+                    "Other Specialty Food Retailers"
+                ]
+            }
+        },
+        {
+            "key": "4442",
+            "changes": {
+                "Description": [
+                    "Lawn and Garden Equipment and Supplies Stores",
+                    "Lawn and Garden Equipment and Supplies Retailers"
+                ]
+            }
+        },
+        {
+            "key": "445",
+            "changes": {
+                "Description": [
+                    "Food and Beverage Stores",
+                    "Food and Beverage Retailers"
+                ]
+            }
+        },
+        {
+            "key": "4451",
+            "changes": {
+                "Description": [
+                    "Grocery Stores",
+                    "Grocery and Convenience Retailers"
+                ]
+            }
+        },
+        {
+            "key": "44511",
+            "changes": {
+                "Description": [
+                    "Supermarkets and Other Grocery (except Convenience) Stores",
+                    "Supermarkets and Other Grocery Retailers (except Convenience Retailers)"
+                ]
+            }
+        },
+        {
+            "key": "44412",
+            "changes": {
+                "Description": [
+                    "Paint and Wallpaper Stores",
+                    "Paint and Wallpaper Retailers"
+                ]
+            }
+        },
+        {
+            "key": "4413",
+            "changes": {
+                "Description": [
+                    "Automotive Parts, Accessories, and Tire Stores",
+                    "Automotive Parts, Accessories, and Tire Retailers"
+                ]
+            }
+        },
+        {
+            "key": "4251",
+            "changes": {
+                "Description": [
+                    "Wholesale Electronic Markets and Agents and Brokers",
+                    "Wholesale Trade Agents and Brokers"
+                ]
+            }
+        },
+        {
+            "key": "42494",
+            "changes": {
+                "Description": [
+                    "Tobacco and Tobacco Product Merchant Wholesalers",
+                    "Tobacco Product and Electronic Cigarette Merchant Wholesalers"
+                ]
+            }
+        },
+        {
+            "key": "425",
+            "changes": {
+                "Description": [
+                    "Wholesale Electronic Markets and Agents and Brokers",
+                    "Wholesale Trade Agents and Brokers"
+                ]
+            }
+        }
+    ],
+    "columns_added": [],
+    "columns_removed": []
+}

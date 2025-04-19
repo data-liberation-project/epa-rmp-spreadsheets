@@ -42,7 +42,7 @@ Each subdirectory contains one file per file in the `data/output/` directory, bu
 ### Copy the RMP SQLite file into `data/raw/`
 
 - If the `data/raw/` directory does not already exist, create it.
-- Download `RMPData.sqlite` from [this Google Drive folder](https://drive.google.com/drive/folders/1TtbkJ_OFHTiJa6GPedTma3fR6im-6xHX).
+- Download `RMPData.sqlite` from [this Google Drive folder](https://drive.google.com/file/d/1FJ3--sZWhRF9-_MbMQpu_bf_QgeGRNgE/view?usp=drive_link).
 - Copy or move that file into `data/raw/`.
 
 
